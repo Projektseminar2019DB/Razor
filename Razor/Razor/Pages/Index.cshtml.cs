@@ -19,6 +19,7 @@ namespace Razor.Pages
 
         public void OnGet()
         {
+             ret = Redis_Request.GetValue("000028233"); 
 
         }
     }
